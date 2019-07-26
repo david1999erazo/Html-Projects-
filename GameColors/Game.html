@@ -8,13 +8,13 @@
     </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='styleGame.css'>
-    <script src='scriptGame.js'></script>
+    
 </head>
-<body>
+<body onload="initialize()">
     
     <div id= "title">
         <h2>El gran</h2>
-        <h1>RGB(0,0,0)</h1>
+        <h1 id="rgb">rgb(0,0,0)</h1>
         <h2>juego de color</h2>
     </div>
 
@@ -22,9 +22,9 @@
         
         <button id="NewGame">New Game</button>
         <span id="message"></span>
-        <button class="Novato">Novato</button>
-        <button class="Normal">Normal</button>
-        <button class="Master">Master</button>
+        <button class="Novato" onclick="selectLevel(3)">Novato</button>
+        <button class="Normal" onclick="selectLevel(6)">Normal</button>
+        <button class="Master" onclick="selectlevel(9)">Master</button>
 
     </div>
 
@@ -46,3 +46,4 @@
 
 </body>
 </html>
+<script  type="text/javascript" src="scriptGame.js"> </script>
