@@ -1,0 +1,27 @@
+
+
+
+.Todo{
+	margin: 150px;
+	border-style: solid;
+	border-width: 15px;
+	border-color: #bdc3c7;
+	padding: 15px;
+	font-family: 'Montsert rat', sans-serif;
+}
+
+
+.Fecha{
+	color: #3498db
+}
+
+
+.primerParrafo{
+	border-left: 6px solid #bdc3c7;
+	padding-left: 6px;
+
+}
+
+hr{
+	border : 1px solid #bdc3c7 ;
+}
