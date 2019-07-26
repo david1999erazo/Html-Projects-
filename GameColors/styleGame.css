@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body
+{
+    font-family: "Montserrat", "Avenir";
+    text-align: center;
+    margin : 0;
+    background-color: #232323;
+}
+
+h1
+{
+    text-transform: uppercase;
+    margin: 0;
+    color: whitesmoke;
+    font-size: 200%;
+}
+
+h2
+{
+    margin :0;
+    color: whitesmoke;
+}
+
+button
+{
+    background: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    color: steelblue;
+    border: 0;
+    text-transform: uppercase;  
+}
+
+button:hover
+{   
+    background: steelblue;
+    color: whitesmoke
+}
+
+#title
+{
+    margin: 0;
+    background-color: steelblue;
+    font-weight: normal;
+    padding: 20px 0;
+}
+
+#menu
+{
+    background-color: whitesmoke;
+    text-align: center; 
+}
+
+#board
+{
+    width: 80%;
+    max-width: 600px;
+    margin : 20px auto;
+}
+
+.square
+{
+    display: inline;
+    border-radius: 15px;
+    background-color: white;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    width: 30%;
+    float: left;
+}
+
+
+
